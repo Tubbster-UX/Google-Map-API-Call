@@ -1,6 +1,17 @@
-# Project Name
+# Google Maps API Caller
 
-A brief description of the project.
+This project is a simple Node.js application that uses the Google Maps API to fetch reviews of a specific place. It uses Express.js to handle HTTP requests and the `@google/maps` package to interact with the Google Maps API.
+
+The application provides an endpoint (`/reviews/{placeid}`) that accepts a place ID as a parameter and returns the reviews for that place. The `{placeid}` in the URL needs to be replaced with the actual ID of the place.
+
+The application is designed to be easy to use and extend. It's a great starting point if you're looking to integrate Google Maps into your own Node.js applications.
+
+## Features
+
+- Fetches reviews for a specific place from Google Maps.
+- Handles HTTP requests using Express.js.
+- Allows Cross-Origin Resource Sharing (CORS) from any origin.
+
 
 ## Table of Contents
 
