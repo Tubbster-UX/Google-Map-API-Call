@@ -1,0 +1,15 @@
+{
+  "name": "google-maps-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Tubbster-UX",
+  "license": "Apache License",
+  "dependencies": {
+    "@google/maps": "^1.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^130.0.0"
+  }
+}
